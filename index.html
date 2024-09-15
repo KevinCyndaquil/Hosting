@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Practica 3</title>
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <section class="rfc_view">
+        <form class="rfc_form">
+            <h1>GENERADOR DE RFC</h1><br>
+
+            <label for="get_nombre">Nombre</label><br>
+            <input type="text" name="nombre" id="nombre" required><br><br>
+    
+            <label for="get_apellido_p">Apellido paterno</label><br>
+            <input type="text" name="apellido_p" id="apellido_p" required><br><br>
+                
+            <label for="get_apellido_m">Apellido materno</label><br>
+            <input type="text" name="apellido_m" id="apellido_m" required><br><br>
+                
+            <label for="get_nacimiento">Fecha Nacimiento</label><br>
+            <input type="date" name="nacimiento" id="nacimiento" required><br><br>
+            
+            <p id="rfc_place"></p><br><br>
+
+            <button type="button" onclick="makeRFC()">GENERAR</button>
+        </form>
+    </section>
+    <section class="api_consumer">
+        <div class="api_form">
+            <h1>CONSUMIDOR DE API</h1><br><br>
+            <div class="api_cont">
+                <p class="api_label">Nombre</p>
+                <p class="api_response" id="api_name"></p>
+            </div><br><br>
+            <div class="api_cont">
+                <p class="api_label">Email</p>
+                <p class="api_response" id="api_email""></p>
+            </div><br><br>
+            
+            <button type="button" onclick="getUsr()">CONSUMIR</button>
+        </div>
+    </section>
+</body>
+</html>

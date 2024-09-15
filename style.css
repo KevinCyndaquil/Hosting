@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+}
+
+body {
+    background-image: url("https://c.wallhere.com/photos/6a/25/clear_sky_cherry_blossom_water_Minecraft-2259392.jpg!d");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(207, 203, 202);
+    border-radius: 15px;
+    width: 30vh;
+    padding: 5px;
+    font-size: 20px;
+    margin: 0px auto;
+}
+
+.rfc_view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    margin: 30px 0px;
+}
+
+.rfc_form {
+    align-items: center;
+    background-color: rgba(116, 128, 238, 0.8);
+    width: 60%;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.rfc_form label {
+    display: inline-block;
+    color: white;
+    width: 100%;
+    text-align: left;
+    padding: 0px;
+}
+
+.rfc_form input {
+    margin: 0px;
+    text-align: left;
+    width: 100%;
+}
+
+.rfc_form p {
+    margin: 0px auto;
+    text-align: center;
+    width: 90%;
+    height: 4vh;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.api_consumer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    margin: 30px 0px;
+}
+
+.api_form {
+    text-align: center;
+    background-color: rgba(222, 243, 102, 0.8);
+    width: 60%;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+.api_form p {
+    display: inline-block;
+    justify-content: center;   
+}
+
+.api_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+}
+
+.api_label {
+    margin-right: 20px;
+    width: 10%;
+    height: fit-content;
+    text-align: right;
+}
+
+.api_response {
+    display: grid;
+    place-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 7vh;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(56, 56, 56);
+    text-align: left;
+}
+
